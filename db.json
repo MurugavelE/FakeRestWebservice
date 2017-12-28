@@ -1,150 +1,139 @@
-
-{
-  "GetAllEvents": [
-    {
-      "eventid": 1001,
-      "eventname": "Event Name 1",
-	  "eventtype": "TDS"
-    }
-	    {
-      "eventid": 1002,
-      "eventname": "Event Name 2",
-	  "eventtype": "TDS"
-    }
-	    {
-      "eventid": 1003,
-      "eventname": "Event Name 3",
-	  "eventtype": "TDS"
-    }
-	    {
-      "eventid": 1004,
-      "eventname": "Event Name 4",
-	  "eventtype": "TDS"
-    }
-	    {
-      "eventid": 1005,
-      "eventname": "Event Name 5",
-	  "eventtype": "TDS"
-    }
-	    {
-      "eventid": 1006,
-      "eventname": "Event Name 6",
-	  "eventtype": "TDS"
-    }
-	    {
-      "eventid": 1007,
-      "eventname": "Event Name 7",
-	  "eventtype": "TDS"
-    }
-	    {
-      "eventid": 1008,
-      "eventname": "Event Name 8",
-	  "eventtype": "TDS"
-    }
-	   {
-      "eventid": 1009,
-      "eventname": "Event Name 9",
-	  "eventtype": "TDS"
-    }
-	   {
-      "eventid": 1010,
-      "eventname": "Event Name 10",
-	  "eventtype": "TDS"
-    }
-  ],
-  
-  
-  
-  
-  "GetEvent": {
-"Transaction Date/Time (Activity)":"2016-05-16T20:16:37",
-"Domicile SLIC":"4059",
-"Domicile Country Code":"US",
-"GPS Latitude":"38.074",
-"GPS Longitude":"-84.5325",
-"Start Location (SLOC)":"4059",
-"Start Location Country Code":"US",
-"End Location (ELOC)":"4029",
-"End Location Country Code":"US",
-"Actual Departure Time - GMT":"2016-05-16T20:16:37",
-"Planned Departure Time - GMT":"2016-05-16T20:16:37",
-"Planned Arrival Time - GMT":"2016-05-16T20:16:37",
-"Tractor Number":"274090",
-"Job Number":"CU10",
-"Job Date":"2017-09-11",
-"Person Group System Number":"100070263",
-"Driver Last Name":"Sears",
-"Driver First Name":"Duane",
-"Second Driver Number":"100084615",
-"Region":"07",
-"District":"49",
-"Sort Code":"D",
-"Message GMT Timestamp":"2016-05-16T20:44:24",
-"Activity Political Division 1":"KY",
-"Activity Political Division 2":"Lexington",
-"Job OID":"00CE91CB67BCFEC78400015C06",
-"Activity Type":"DEP, PDV",
-"Activity Description":"Departure",
-"Activity Organization Number":"4059",
-"Activity Organization Country":"US",
-"Movement System Number":"00CE9610C2A384898A00012707",
-"Activity Start Time":"2016-05-16T15:16:37",
-"Activity Start Time GMT":"2016-05-16T20:16:37",
-"Trailer Number":"309405",
-"Trailer Type Code":"WW",
-"Load Origin Abbreviation":"LEXKY",
-"Load Origin Country Code":"US",
-"Load Origin Sort Type":"N",
-"Load Destination Abbreviation":"BOWKY",
-"Load Destination Country Code":"US",
-"Load Destination Sort Type":"N",
-"Load Departure Sequence Number":"1",
-"Load Create Date":"2016-05-16T00:00:00",
-"Load Create Date GMT":"2016-05-16T05:00:00",
-"Trailer Volume Percent":"98",
-"Trailer Package Volume":"100",
-"Route Code":"G",
-"Trailer Position":"F",
-"Actual Pull Time":"14:44:22",
-"HAZMAT Assigned Quantity":"0",
-"Primary Load Indicator":"1",
-"Load Code":"L",
-"Current Location":"LEXKY",
-"Load Arrival Operation Date":"2017-09-11",
-"Service Level":"1DA",
-"Chassis Number":"??",
-"Chassis Type Code":"??",
-"Forecasted Due Date":"2017-09-11",
-"Bay Number":"0533",
-"Carrier Name":"Oldsmobile",
-"Driver Type":"SCS",
-"Directship Indicator":"0",
-"Schedule ID":"15224325",
-"Destination Sort Date":"2017-09-11",
-"Message Text":"This is an EPTS Message!!!",
-"Customer Load ID":"8675409",
-"Movement Date":"2017-09-11",
-"Order ID":"465E28C45E244A01A35C445823BE00E7",
-"Schedule ID (multiple)":"28952586",
-"Tracking Request ID":"FA94F32A39D84B7592965D8BDE940CC2",
-"ID":"DCPL403,2016-09-01",
-"Stop":"Pickup at TCPAL",
-"Stop ID":"R,DCPL403|D,US4029,US4059,29538597",
-"Event":"X3",
-"Segment OID":"00D0A74423B374980200014106",
-"Load Unit Reference Number":"01312",
-"Movement Type":"DirectShip",
-"End Location Region":"07",
-"End Location District":"40",
-"Leg Number":"1",
-"Secondary Loads":"0",
-"Equipment Tag Type Code":"1",
-"Operation Type Code":"Hub"
-  }
-  
-  
-  
-  
-  
-  
+{  
+   "GetAllEvents":[  
+      {  
+         "eventid":1001,
+         "eventname":"Event Name 1",
+         "eventtype":"TDS"
+      },
+      {  
+         "eventid":1002,
+         "eventname":"Event Name 2",
+         "eventtype":"TDS"
+      },
+      {  
+         "eventid":1003,
+         "eventname":"Event Name 3",
+         "eventtype":"TDS"
+      },
+      {  
+         "eventid":1004,
+         "eventname":"Event Name 4",
+         "eventtype":"TDS"
+      },
+      {  
+         "eventid":1005,
+         "eventname":"Event Name 5",
+         "eventtype":"TDS"
+      },
+      {  
+         "eventid":1006,
+         "eventname":"Event Name 6",
+         "eventtype":"TDS"
+      },
+      {  
+         "eventid":1007,
+         "eventname":"Event Name 7",
+         "eventtype":"TDS"
+      },
+      {  
+         "eventid":1008,
+         "eventname":"Event Name 8",
+         "eventtype":"TDS"
+      },
+      {  
+         "eventid":1009,
+         "eventname":"Event Name 9",
+         "eventtype":"TDS"
+      },
+      {  
+         "eventid":1010,
+         "eventname":"Event Name 10",
+         "eventtype":"TDS"
+      }
+   ],
+   "GetEvent":{  
+      "Transaction Date/Time (Activity)":"2016-05-16T20:16:37",
+      "Domicile SLIC":"4059",
+      "Domicile Country Code":"US",
+      "GPS Latitude":"38.074",
+      "GPS Longitude":"-84.5325",
+      "Start Location (SLOC)":"4059",
+      "Start Location Country Code":"US",
+      "End Location (ELOC)":"4029",
+      "End Location Country Code":"US",
+      "Actual Departure Time - GMT":"2016-05-16T20:16:37",
+      "Planned Departure Time - GMT":"2016-05-16T20:16:37",
+      "Planned Arrival Time - GMT":"2016-05-16T20:16:37",
+      "Tractor Number":"274090",
+      "Job Number":"CU10",
+      "Job Date":"2017-09-11",
+      "Person Group System Number":"100070263",
+      "Driver Last Name":"Sears",
+      "Driver First Name":"Duane",
+      "Second Driver Number":"100084615",
+      "Region":"07",
+      "District":"49",
+      "Sort Code":"D",
+      "Message GMT Timestamp":"2016-05-16T20:44:24",
+      "Activity Political Division 1":"KY",
+      "Activity Political Division 2":"Lexington",
+      "Job OID":"00CE91CB67BCFEC78400015C06",
+      "Activity Type":"DEP, PDV",
+      "Activity Description":"Departure",
+      "Activity Organization Number":"4059",
+      "Activity Organization Country":"US",
+      "Movement System Number":"00CE9610C2A384898A00012707",
+      "Activity Start Time":"2016-05-16T15:16:37",
+      "Activity Start Time GMT":"2016-05-16T20:16:37",
+      "Trailer Number":"309405",
+      "Trailer Type Code":"WW",
+      "Load Origin Abbreviation":"LEXKY",
+      "Load Origin Country Code":"US",
+      "Load Origin Sort Type":"N",
+      "Load Destination Abbreviation":"BOWKY",
+      "Load Destination Country Code":"US",
+      "Load Destination Sort Type":"N",
+      "Load Departure Sequence Number":"1",
+      "Load Create Date":"2016-05-16T00:00:00",
+      "Load Create Date GMT":"2016-05-16T05:00:00",
+      "Trailer Volume Percent":"98",
+      "Trailer Package Volume":"100",
+      "Route Code":"G",
+      "Trailer Position":"F",
+      "Actual Pull Time":"14:44:22",
+      "HAZMAT Assigned Quantity":"0",
+      "Primary Load Indicator":"1",
+      "Load Code":"L",
+      "Current Location":"LEXKY",
+      "Load Arrival Operation Date":"2017-09-11",
+      "Service Level":"1DA",
+      "Chassis Number":"??",
+      "Chassis Type Code":"??",
+      "Forecasted Due Date":"2017-09-11",
+      "Bay Number":"0533",
+      "Carrier Name":"Oldsmobile",
+      "Driver Type":"SCS",
+      "Directship Indicator":"0",
+      "Schedule ID":"15224325",
+      "Destination Sort Date":"2017-09-11",
+      "Message Text":"This is an EPTS Message!!!",
+      "Customer Load ID":"8675409",
+      "Movement Date":"2017-09-11",
+      "Order ID":"465E28C45E244A01A35C445823BE00E7",
+      "Schedule ID (multiple)":"28952586",
+      "Tracking Request ID":"FA94F32A39D84B7592965D8BDE940CC2",
+      "ID":"DCPL403,2016-09-01",
+      "Stop":"Pickup at TCPAL",
+      "Stop ID":"R,DCPL403|D,US4029,US4059,29538597",
+      "Event":"X3",
+      "Segment OID":"00D0A74423B374980200014106",
+      "Load Unit Reference Number":"01312",
+      "Movement Type":"DirectShip",
+      "End Location Region":"07",
+      "End Location District":"40",
+      "Leg Number":"1",
+      "Secondary Loads":"0",
+      "Equipment Tag Type Code":"1",
+      "Operation Type Code":"Hub"
+   }
 }
