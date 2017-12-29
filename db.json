@@ -1,58 +1,60 @@
 {  
    "GetAllEvents":[  
       {  
-         "eventid":1001,
-         "eventname":"Event Name 1",
+         "EventID":1001,
+         "EventName":"Event Name 1",
          "eventtype":"TDS"
       },
       {  
-         "eventid":1002,
-         "eventname":"Event Name 2",
-         "eventtype":"TDS"
+         "EventID":1002,
+         "EventName":"Event Name 2",
+         "EventType":"TDS"
       },
       {  
-         "eventid":1003,
-         "eventname":"Event Name 3",
-         "eventtype":"TDS"
+         "EventID":1003,
+         "EventName":"Event Name 3",
+         "EventType":"TDS"
       },
       {  
-         "eventid":1004,
-         "eventname":"Event Name 4",
-         "eventtype":"TDS"
+         "EventID":1004,
+         "EventName":"Event Name 4",
+         "EventType":"TDS"
       },
       {  
-         "eventid":1005,
-         "eventname":"Event Name 5",
-         "eventtype":"TDS"
+         "EventID":1005,
+         "EventName":"Event Name 5",
+         "EventType":"TDS"
       },
       {  
-         "eventid":1006,
-         "eventname":"Event Name 6",
-         "eventtype":"TDS"
+         "EventID":1006,
+         "EventName":"Event Name 6",
+         "EventType":"TDS"
       },
       {  
-         "eventid":1007,
-         "eventname":"Event Name 7",
-         "eventtype":"TDS"
+         "EventID":1007,
+         "EventName":"Event Name 7",
+         "EventType":"TDS"
       },
       {  
-         "eventid":1008,
-         "eventname":"Event Name 8",
-         "eventtype":"TDS"
+         "EventID":1008,
+         "EventName":"Event Name 8",
+         "EventType":"TDS"
       },
       {  
-         "eventid":1009,
-         "eventname":"Event Name 9",
-         "eventtype":"TDS"
+         "EventID":1009,
+         "EventName":"Event Name 9",
+         "EventType":"TDS"
       },
       {  
-         "eventid":1010,
-         "eventname":"Event Name 10",
-         "eventtype":"TDS"
+         "EventID":1010,
+         "EventName":"Event Name 10",
+         "EventType":"TDS"
       }
    ],
    "GetEvent":{  
-      "EventId":1,
+      "EventID":1001,
+         "EventName":"Event Name 1",
+         "EventType":"TDS"
       "Transaction_Date_Time_Activity":"2016-05-16T20:16:37",
       "Domicile_SLIC":"4059",
       "Domicile_Country_Code":"US",
