@@ -54,7 +54,7 @@
    "GetEvent":{  
       "EventID":1001,
          "EventName":"Event Name 1",
-         "EventType":"TDS"
+         "EventType":"TDS",
       "Transaction_Date_Time_Activity":"2016-05-16T20:16:37",
       "Domicile_SLIC":"4059",
       "Domicile_Country_Code":"US",
